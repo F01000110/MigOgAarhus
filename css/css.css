@@ -1,0 +1,48 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+ :root {
+   --contrast: rgb(165, 165, 165);
+   --backgr: #eff1f5;
+   ;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+  background-color:#e6eaee;
+ }
+/* Use your variables on elements */
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+.topnav {
+  background-color: #e6eaee;
+  overflow: hidden;
+  padding: 30px;
+  text-align: center;
+  position: fill;
+  left: 250px;
+  top: 250px;
+}
+.topnav a {
+  float: center;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+.logo {
+width: 17%;
+position: absolute;
+margin-top: -95px;
+margin-left: 20px;
+}
+
+.baggrundsbillede {
+  margin-left: 30px;
+}
